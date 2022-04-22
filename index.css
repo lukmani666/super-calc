@@ -168,6 +168,10 @@ p {
     .first {
         margin-top: 60px;
     }
+
+    .container {
+        overflow: hidden;
+    }
 }
 
 
