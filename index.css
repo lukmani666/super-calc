@@ -15,7 +15,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    place-items: center;
+    justify-content: center;
 }
 
 .calculator {
@@ -156,20 +156,11 @@ button.btn-equal {
     background: #e5e5e5;
 }
 
-p {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 18px;
-    color: #e5e5e5;
-}
-
 @media (max-width: 600px) {
-    .first {
-        margin-top: 60px;
-    }
-
     .container {
+        overflow: hidden;
+    }
+    .calculator{
         overflow: hidden;
     }
 }
